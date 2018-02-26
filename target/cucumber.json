@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "�ٶ�����selenium",
+        "description": "",
+        "id": "�ٶ�����;�ٶ�����selenium",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10523878589,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Go to baidu home",
+            "match": {
+              "location": "BaiduSearchStepfs.go_to_baidu_home()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 229828316,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Type the search text \"selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selenium",
+                  "offset": 22
+                }
+              ],
+              "location": "BaiduSearchStepfs.type_the_search_text(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105045430,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the submit",
+            "match": {
+              "location": "BaiduSearchStepfs.click_the_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14004011204,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Wait the query result",
+            "match": {
+              "location": "BaiduSearchStepfs.wait_the_query_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "�ٶ�����",
+    "description": "    �򿪰ٶȽ�������",
+    "id": "�ٶ�����",
+    "keyword": "Feature",
+    "uri": "baiduSearch.feature"
+  }
+]
